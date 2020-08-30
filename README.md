@@ -10,3 +10,5 @@ Core features of AdelieOS will include:
 - Convenient safe installation of popular Linux applications not available in the Arch Linux official repositories using the AdelieOS repo.
 
 This list will be evolving and changing as time goes on, but these are our initial goals.
+
+If you would like to contribute to AdelieOS, please contact the authors.
