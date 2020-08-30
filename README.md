@@ -11,4 +11,4 @@ Core features of AdelieOS will include:
 
 This list will be evolving and changing as time goes on, but these are our initial goals.
 
-If you would like to contribute to AdelieOS, please contact the authors.
+If you would like to contribute to AdelieOS, please contact the developers.
