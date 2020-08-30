@@ -1,0 +1,5 @@
+---
+type:       "job"
+name:       "services"
+interface:  "python"
+script:     "main.py"

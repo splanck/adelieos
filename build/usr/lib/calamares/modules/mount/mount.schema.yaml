@@ -1,0 +1,29 @@
+---
+$schema: https://json-schema.org/schema#
+$id: https://calamares.io/schemas/mount
+additionalProperties: false
+type: object
+properties:
+    # TODO: share the schema definition, since these are identical
+    extraMounts:
+        type: array
+        items:
+            type: object
+            additionalProperties: false
+            properties:
+                device: { type: string }
+                fs: { type: string }
+                mountPoint: { type: string }
+                options: { type: string }
+            required: [ device, mountPoint ]
+    extraMountsEfi:
+        type: array
+        items:
+            type: object
+            additionalProperties: false
+            properties:
+                device: { type: string }
+                fs: { type: string }
+                mountPoint: { type: string }
+                options: { type: string }
+            required: [ device, mountPoint ]

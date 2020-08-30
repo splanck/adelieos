@@ -1,0 +1,9 @@
+NAME=AdelieOS
+ID=adelieos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;36"
+HOME_URL="https://www.adelieos.com"
+SUPPORT_URL="https://www.adelieos.com"
+BUG_REPORT_URL="https://www.adelieos.com"
+LOGO=arcolinux-hello
