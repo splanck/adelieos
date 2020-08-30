@@ -1,4 +1,4 @@
-# adelieos
+# AdelieOS 
 AdelieOS is an Arch based Linux distribution designed to provide all the wonderful features of Arch in a more stable, user friendly distribution.
 
 Core features of AdelieOS will include:
