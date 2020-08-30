@@ -1,0 +1,8 @@
+---
+$schema: https://json-schema.org/schema#
+$id: https://calamares.io/schemas/luksopenswaphookcfg
+additionalProperties: false
+type: object
+properties:
+    configFilePath: { type: string }
+required: [ configFilePath ]
