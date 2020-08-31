@@ -10,10 +10,10 @@ locale-gen
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 
 # Add Live User
-useradd -m -u 1010 -G users,sys,floppy,scanner,power,rfkill,optical,adm,log,lp,video,network,storage,wheel,audio -s /bin/bash live
+useradd -m -u 1010 -G users,sys,floppy,scanner,power,rfkill,optical,adm,log,lp,video,network,storage,wheel,audio -s /bin/bash adelieos
 
 # Setup Passwords users: live and root
-chpasswd <<< 'live:live'
+chpasswd <<< 'adelieos:adelieos'
 chpasswd <<< 'root:toor'
 
 cp /etc/lsb-release-new /etc/lsb-release
@@ -33,7 +33,4 @@ systemctl enable systemd-resolved.service
 
 # Enable sudo
 sed -i -e 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) NOPASSWD: ALL/g' /etc/sudoers
-
-# Reflector
-# reflector --age 3 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 

@@ -43,4 +43,3 @@ cd ../releng
 
 ./build.sh -v
 
-rm -R ./releng/
