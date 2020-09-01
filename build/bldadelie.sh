@@ -39,6 +39,8 @@ echo "adelieos" > ../releng/airootfs/etc/hostname
 
 [[ -d lightdm ]] && cp -r lightdm ../releng/airootfs/etc/
 
+cp -r corefs/etc/skel/* ../releng/airootfs/etc/
+
 cd ../releng
 
 ./build.sh -v
