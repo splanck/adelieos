@@ -23,6 +23,7 @@ grub
 haveged
 hdparm
 intel-ucode
+irssi
 kitty-terminfo
 linux
 linux-firmware
@@ -31,6 +32,7 @@ lvm2
 lynx
 man-db
 man-pages
+mc
 mdadm
 memtest86+
 mkinitcpio
@@ -45,6 +47,7 @@ nvme-cli
 partclone
 parted
 refind
+reflector
 rsync
 rxvt-unicode-terminfo
 sdparm
@@ -56,7 +59,9 @@ terminus-font
 termite-terminfo
 usbutils
 usb_modeswitch
-vim
+vi
+vim-minimal
+zsh
 
 # System
 archiso
@@ -144,12 +149,14 @@ pulseaudio-bluetooth
 pulseaudio-equalizer
 pulseaudio-jack
 quodlibet
+simplescreenrecorder
 sox
 transcode
 vlc
 x265
 x264
 xvidcore
+youtube-dl
 
 # XORG
 mesa
@@ -171,6 +178,7 @@ dhcpcd
 dnsmasq
 dnsutils
 ethtool
+filezilla
 firefox
 gnome-nettool
 gnu-netcat
@@ -212,6 +220,7 @@ xl2tpd
 # Desktop
 aisleriot
 epdfview
+geany
 gnome-disk-utility
 gparted
 meld
@@ -241,19 +250,22 @@ clonezilla
 partclone
 partimage
 fsarchiver
+mc
 
-# Mate
-brasero
+# Xfce
+xfce4
+xfce4-goodies
 adapta-gtk-theme
 arc-gtk-theme
 arc-icon-theme
-gtk-engine-murrine
-mate
-mate-applet-dock
-mate-extra
-mate-polkit
+catfish
+galculator
 gnome-packagekit
+gtk-engine-murrine
+polkit-gnome
 transmission-gtk
+xarchiver
+xfburn
 
 # Display Manager
 lightdm
