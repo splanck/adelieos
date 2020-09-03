@@ -39,6 +39,8 @@ echo "adelieos" > ../releng/airootfs/etc/hostname
 
 [[ -d lightdm ]] && cp -r lightdm ../releng/airootfs/etc/
 
+[[ -d xfce4 ]] && cp -r xfce4 ../releng/airootfs/etc/skel/.config/
+
 cp -r corefs/etc/skel/* ../releng/airootfs/etc/
 
 cd ../releng
