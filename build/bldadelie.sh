@@ -2,11 +2,9 @@
 
 chown -R root:root *
 
-cp -r corefs releng
-
 [[ -d ../releng ]] && rm -r ../releng
 
-cp -r releng/ ../releng/
+cp -r corefs/ ../releng/
 
 [[ -d ../releng/airootfs/etc/systemd/system/getty@tty1.service.d ]] && rm -r ../releng/airootfs/etc/systemd/system/getty@tty1.service.d
 [[ -d ../releng/airootfs/etc/systemd/network ]] && rm -r ../releng/airootfs/etc/systemd/network
@@ -18,6 +16,8 @@ cp -r releng/ ../releng/
 [[ -f ../releng/airootfs/etc/systemd/system/sockets.target.wants/systemd-networkd.socket ]] && rm ../releng/airootfs/etc/systemd/system/sockets.target.wants/systemd-networkd.socket
 [[ -f ../releng/airootfs/etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service ]] && rm ../releng/airootfs/etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service
 [[ -f ../releng/airootfs/etc/resolv.conf ]] && rm ../releng/airootfs/etc/resolv.conf
+
+[[ -d xfce4 ]] && mkdir -p ../releng/airootfs/etc/skel/.config
 
 cp build.sh ../releng/
 
@@ -41,9 +41,8 @@ echo "adelieos" > ../releng/airootfs/etc/hostname
 
 [[ -d xfce4 ]] && cp -r xfce4 ../releng/airootfs/etc/skel/.config/
 
-cp -r corefs/etc/skel/* ../releng/airootfs/etc/
+cp -r corefs/airootfs/etc/skel ../releng/airootfs/etc/
 
 cd ../releng
 
 ./build.sh -v
-
