@@ -1,4 +1,3 @@
 releng/*
-build/releng/*
 *.iso
 gitpush.sh
