@@ -99,11 +99,9 @@ strings:
     versionedName:       AdelieOS Version 0.0.1
     shortVersionedName:  AdelieOS v0.0.1 
     bootloaderEntryName: AdelieOS
-    productUrl:          https://sourceforge.net/projects/ezarch/
-    supportUrl:          https://sourceforge.net/projects/ezarch/
-    knownIssuesUrl:      https://sourceforge.net/projects/ezarch/
-    releaseNotesUrl:     https://sourceforge.net/projects/ezarch/
-    donateUrl:           https://sourceforge.net/projects/ezarch/
+    productUrl:          https://adelieos.com
+    supportUrl:          https://adelieos.com
+    knownIssuesUrl:      https://adelieos.com
 
 # These images are loaded from the branding module directory.
 #

@@ -118,18 +118,15 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "AdelieOS"
-    shortProductName:    Generic
+    productName:         AdelieOS
+    shortProductName:    AdelieOS
     version:             0.0.1
     shortVersion:        0.0.1
     versionedName:       AdelieOS Version 0.0.1 
     shortVersionedName:  AdelieOS v0.0.1
     bootloaderEntryName: AdelieOS
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/issues
-    knownIssuesUrl:      https://calamares.io/about/
-    releaseNotesUrl:     https://calamares.io/about/
-    donateUrl:           https://kde.org/community/donations/index.php
+    productUrl:          https://adelieos.com
+    supportUrl:          https://adelieos.com
 
 # These images are loaded from the branding module directory.
 #

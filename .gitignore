@@ -1,3 +1,5 @@
 releng/*
 *.iso
 gitpush.sh
+cleanup.sh
+todolist.txt

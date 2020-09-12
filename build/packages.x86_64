@@ -1,5 +1,5 @@
+# Base
 
-# Arch
 amd-ucode
 arch-install-scripts
 base
@@ -101,9 +101,9 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-jfsutils
+#jfsutils
 squashfs-tools
-reiserfsprogs
+#reiserfsprogs
 xfsprogs
 
 # Multimedia
@@ -233,23 +233,23 @@ ttf-opensans
 freetype2
 
 # Rescue
-grsync
+# grsync
 ddrescue
 dd_rescue
 testdisk
 clonezilla
-partclone
-partimage
+# partclone
+# partimage
 fsarchiver
 
 # Xfce
 xfce4
-xfce4-goodies
+# xfce4-goodies
 adapta-gtk-theme
 arc-gtk-theme
 arc-icon-theme
 catfish
-galculator
+# galculator
 gnome-packagekit
 gtk-engine-murrine
 polkit-gnome
