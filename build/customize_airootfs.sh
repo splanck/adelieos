@@ -12,7 +12,11 @@ sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 # Add Live User
 useradd -m -u 1010 -G users,sys,floppy,scanner,power,rfkill,optical,adm,log,lp,video,network,storage,wheel,audio -s /bin/bash adelieos
 
+groupadd -r autologin
+gpasswd -a adelieos autologin
+
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+echo "sudo calamares &" >> /home/adelieos/.xprofile
 
 # Setup Passwords users: live and root
 chpasswd <<< 'adelieos:adelieos'
