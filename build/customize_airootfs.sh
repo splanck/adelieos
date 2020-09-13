@@ -19,6 +19,7 @@ chpasswd <<< 'adelieos:adelieos'
 chpasswd <<< 'root:toor'
 
 cp /etc/lsb-release-new /etc/lsb-release
+cp /usr/share/backgrounds/xfce/adeliebg.png /usr/share/backgrounds/xfce/xfce-stripes.png
 
 # Adding Post-Install Tasks
 systemctl enable lightdm.service
