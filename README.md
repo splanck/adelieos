@@ -11,11 +11,13 @@ Core features of AdelieOS will include:
 
 This list will be evolving and changing as time goes on, but these are our initial goals.
 
-If you would like to contribute to AdelieOS, please contact the developers.
-
 # Current Status of AdelieOS
 AdelieOS is in its early stages of development. We plan to make an initial early development snapshot available for download on the adelieos.com website within the next few weeks, but you can clone the repository and build the iso for yourself if you are interested. 
 
 # Building AdelieOS
-Any Arch based system should be able to build the AdelieOS ISO image as long as both base-devel and archiso are installed. Simpley clone this repository and then execute the bldadelie.sh script located in the build directory. This script must be executed with root privileges.
+Any Arch based system should be able to build the AdelieOS ISO image as long as both base-devel and archiso are installed. Simply clone this repository and then execute the bldadelie.sh script located in the build directory. This script must be executed with root privileges.
 
+# Contributing to AdelieOS
+We are always delighted to hear from anyone interested in getting involved and contributing to the project. The project team is currently very small and we have not yet finalized how we will organise community contributions, but there will be plenty of opportunities to contribute for individuals of all skill levels. If you are interested in getting involved with AdelieOS, please let us know what you'd like to contribute and where your interests are.
+
+Thank you for your interest in the AdelieOS project.
