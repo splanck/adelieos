@@ -5,10 +5,10 @@ Completed tasks:
 Rebrand grub screen - 12/9/2020
 Setup test repository - 12/9/2020
 Replace bashrc - 12/9/2020
+Insert AdelieOS background - 13/9/2020
 
 Short term:
 
-Insert AdelieOS background
 Rebrand Calamares
 Create AdelieOS pacman package
 Make first installable iso snapshot available for download.
