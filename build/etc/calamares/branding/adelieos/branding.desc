@@ -132,10 +132,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "logo.png"
-    productWallpaper:    "wallpaper.png"
-    productWelcome:      "languages.png"
+    productLogo:         "adelieos-logo.png"
+    productIcon:         "adelieos-logo.png"
+    # productWelcome:      "adelieos-welcome.png"
+    productWallpaper:    "adelieos-wallpaper.png"
 
 # The slideshow is displayed during execution steps (e.g. when the
 # installer is actually writing to disk and doing other slow things).

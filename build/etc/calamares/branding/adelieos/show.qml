@@ -33,7 +33,7 @@ Presentation
     Slide {
         Image {
             id: background1
-            source: "wallpaper.png"
+            source: "adelieos-wallpaper.png"
             width: 476; height: 280
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
@@ -41,9 +41,8 @@ Presentation
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "Installation of EZArcher Cala Edition.<br/>"+
+            text: "Installation of AdelieOS is in progress..<br/>"+
                   "Please be patient while the system is installed. <br/>"+
-                  "Thank you for trying EZArcher Cala Edition.<br/>"+
         }
     }
 

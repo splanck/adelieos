@@ -1,0 +1,45 @@
+AdelieOS todo list:
+
+Completed tasks:
+
+Rebrand grub screen - 12/9/2020
+Setup test repository - 12/9/2020
+Replace bashrc - 12/9/2020
+
+Short term:
+
+Insert AdelieOS background
+Rebrand Calamares
+Create AdelieOS pacman package
+Make first installable iso snapshot available for download.
+Create snapshot warning dialog
+Setup MediaWiki site
+Setup IRC channel
+Redirect firefox to adelieos.com
+Fix Calamares release notes page
+Add rofi launcher
+Fix lvm encryption to only require one password
+Update website with full description of the project goals.
+Set target milestone dates
+Make Calamares blend in with desktop theme
+Select extra modules for Calamares
+Setup public bug tracking system
+Setup neofetch graphic
+Setup lightdm background image
+Setup lightdm theming
+
+Medium term:
+
+Create testing strategy
+Create pacman front end
+Create GUI software center
+Setup web forum
+Create welcome screen application
+Implement custom XFCE desktop theme and setup
+Create AdelieOS GUI Config tool
+Make first official alpha iso available for download
+
+Before release:
+
+Complete redesign of website
+Make official beta iso available for download
