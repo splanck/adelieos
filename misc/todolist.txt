@@ -7,12 +7,14 @@ Setup test repository - 12/9/2020
 Replace bashrc - 12/9/2020
 Insert AdelieOS background - 13/9/2020
 Setup neofetch graphic - 13/9/2020
+Setup lightdm background image - 13/9/2020
+Setup lightdm theming - 13/9/2020
+Rebrand Calamares - 13/9/2020
+Make first installable iso snapshot available for download. - 13/9/2020
 
 Short term:
 
-Rebrand Calamares
 Create AdelieOS pacman package
-Make first installable iso snapshot available for download.
 Create snapshot warning dialog
 Setup MediaWiki site
 Setup IRC channel
@@ -25,8 +27,6 @@ Set target milestone dates
 Make Calamares blend in with desktop theme
 Select extra modules for Calamares
 Setup public bug tracking system
-Setup lightdm background image
-Setup lightdm theming
 Setup auto login for live iso
 
 Medium term:
