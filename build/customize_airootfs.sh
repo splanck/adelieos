@@ -24,6 +24,7 @@ chpasswd <<< 'root:toor'
 
 cp /etc/lsb-release-new /etc/lsb-release
 cp /usr/share/backgrounds/xfce/adeliebg.png /usr/share/backgrounds/xfce/xfce-stripes.png
+cp /etc/lightdm/lightdm.conf.live /etc/lightdm/lightdm.conf
 
 # Adding Post-Install Tasks
 systemctl enable lightdm.service
