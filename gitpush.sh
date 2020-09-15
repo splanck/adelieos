@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo chown -R $USER:$USER *
 git add -A
 read -p "Commit description: " desc

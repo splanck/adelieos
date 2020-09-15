@@ -94,10 +94,10 @@ navigation: widget
 strings:
     productName:         AdelieOS
     shortProductName:    AdelisOS
-    version:             0.0.1
-    shortVersion:        0.0.1
-    versionedName:       AdelieOS Version 0.0.1
-    shortVersionedName:  AdelieOS v0.0.1 
+    version:             0.0.2
+    shortVersion:        0.0.2
+    versionedName:       AdelieOS Version 0.0.2
+    shortVersionedName:  AdelieOS v0.0.2 
     bootloaderEntryName: AdelieOS
     productUrl:          https://adelieos.com
     supportUrl:          https://adelieos.com
@@ -153,7 +153,7 @@ images:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
 #   slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
-slideshow:               "show.qml"
+slideshow:               "/etc/calamares/branding/adelieos/adelieos-welcome.png"
 
 # There are two available APIs for a QML slideshow:
 #  - 1 (the default) loads the entire slideshow when the installation-

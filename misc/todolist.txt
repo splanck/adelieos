@@ -11,6 +11,7 @@ Setup lightdm background image - 13/9/2020
 Setup lightdm theming - 13/9/2020
 Rebrand Calamares - 13/9/2020
 Make first installable iso snapshot available for download. - 13/9/2020
+Redirect firefox to adelieos.com - 15/9/2020
 
 Short term:
 
@@ -18,7 +19,6 @@ Create AdelieOS pacman package
 Create snapshot warning dialog
 Setup MediaWiki site
 Setup IRC channel
-Redirect firefox to adelieos.com
 Fix Calamares release notes page
 Add rofi launcher
 Fix lvm encryption to only require one password
@@ -28,6 +28,8 @@ Make Calamares blend in with desktop theme
 Select extra modules for Calamares
 Setup public bug tracking system
 Setup auto login for live iso
+Setup fish and custom oh my fish theme
+Setup a plymouth boot splash screen
 
 Medium term:
 
@@ -38,6 +40,8 @@ Setup web forum
 Create welcome screen application
 Implement custom XFCE desktop theme and setup
 Create AdelieOS GUI Config tool
+Enable out of box snap support
+Enable out of box flatpak support
 Make first official alpha iso available for download
 
 Before release:
