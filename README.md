@@ -12,7 +12,7 @@ Core features of AdelieOS will include:
 This list will be evolving and changing as time goes on, but these are our initial goals.
 
 # Current Status of AdelieOS
-AdelieOS is in its early stages of development. We plan to make an initial early development snapshot available for download on the adelieos.com website within the next few weeks, but you can clone the repository and build the iso for yourself if you are interested. 
+AdelieOS is in its early stages of development. We have made early development snapshots available for download on the https://adelieos.com website which provides a full working Arch based system with Calamares installer, but lacks most of the unique features that will be included in the final AdelieOS release. You can also clone the repository and build the iso for yourself based on the latest sources if you are interested. 
 
 # Building AdelieOS
 Any Arch based system should be able to build the AdelieOS ISO image as long as both base-devel and archiso are installed. Simply clone this repository and then execute the bldadelie.sh script located in the build directory. This script must be executed with root privileges.
