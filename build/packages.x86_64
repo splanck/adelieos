@@ -24,8 +24,7 @@ haveged
 hdparm
 intel-ucode
 kitty-terminfo
-#linux
-linux-lts
+linux
 linux-firmware
 lsscsi
 lvm2
@@ -101,9 +100,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-#jfsutils
 squashfs-tools
-#reiserfsprogs
 xfsprogs
 
 # Multimedia
@@ -159,7 +156,6 @@ xorg-apps
 xorg-drivers
 xorg-xkill
 xorg-xinit
-#xterm
 
 # Networking
 avahi
@@ -189,7 +185,7 @@ network-manager-applet
 net-tools
 nfs-utils
 nilfs-utils
-# nmap
+nmap
 nss-mdns
 openconnect
 openssh
@@ -234,7 +230,6 @@ ttf-opensans
 freetype2
 
 # Rescue
-# grsync
 ddrescue
 dd_rescue
 testdisk
@@ -251,7 +246,6 @@ adapta-gtk-theme
 arc-gtk-theme
 arc-icon-theme
 catfish
-# galculator
 gnome-packagekit
 gtk-engine-murrine
 polkit-gnome
@@ -300,3 +294,4 @@ solid
 steam
 discord
 libreoffice-fresh
+nvidia
