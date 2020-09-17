@@ -135,7 +135,7 @@ images:
     productLogo:         "adelieos-logo.png"
     productIcon:         "adelieos-logo.png"
     # productWelcome:      "adelieos-welcome.png"
-    productWallpaper:    "adelieos-wallpaper.png"
+    # productWallpaper:    "adelieos-wallpaper.png"
 
 # The slideshow is displayed during execution steps (e.g. when the
 # installer is actually writing to disk and doing other slow things).
@@ -153,7 +153,7 @@ images:
 #   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
 #   slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
-slideshow:               "/etc/calamares/branding/adelieos/adelieos-welcome.png"
+slideshow:     [ "/etc/calamares/branding/adelieos/adelieos-wallpaper.png" ]
 
 # There are two available APIs for a QML slideshow:
 #  - 1 (the default) loads the entire slideshow when the installation-
