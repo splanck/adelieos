@@ -12,6 +12,7 @@ Setup lightdm theming - 13/9/2020
 Rebrand Calamares - 13/9/2020
 Make first installable iso snapshot available for download. - 13/9/2020
 Redirect firefox to adelieos.com - 15/9/2020
+Setup a plymouth boot splash screen - 17/9/2020
 
 Short term:
 
@@ -29,7 +30,6 @@ Select extra modules for Calamares
 Setup public bug tracking system
 Setup auto login for live iso
 Setup fish and custom oh my fish theme
-Setup a plymouth boot splash screen
 
 Medium term:
 

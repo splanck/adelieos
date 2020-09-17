@@ -4,3 +4,4 @@ Changes since AdelieOS v0.0.1:
 - Nvidia graphics drivers are now included out of the box.
 - Several package changes including replacing zsh with the fish shell.
 - Made minor changes to the user login screen.
+- Added Plymouth boot splash screen.

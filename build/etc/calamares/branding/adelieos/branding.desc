@@ -134,8 +134,8 @@ images:
     # productBanner:       "banner.png"
     productLogo:         "adelieos-logo.png"
     productIcon:         "adelieos-logo.png"
-    # productWelcome:      "adelieos-welcome.png"
-    # productWallpaper:    "adelieos-wallpaper.png"
+    productWelcome:      "adelieos-welcome.png"
+    productWallpaper:    "orangetile.png"
 
 # The slideshow is displayed during execution steps (e.g. when the
 # installer is actually writing to disk and doing other slow things).
