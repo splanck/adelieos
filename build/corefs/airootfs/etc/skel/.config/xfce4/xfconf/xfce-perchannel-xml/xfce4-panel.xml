@@ -18,9 +18,7 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
         <value type="int" value="9"/>
-        <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
@@ -49,8 +47,10 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="button-title" type="string" value="GO"/>
-      <property name="button-icon" type="string" value="xfce4-whiskermenu"/>
+      <property name="button-icon" type="string" value="/etc/calamares/branding/adelieos/adelieos-logo.png"/>
       <property name="show-button-title" type="bool" value="true"/>
+      <property name="custom-menu" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
