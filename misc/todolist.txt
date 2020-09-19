@@ -15,6 +15,7 @@ Redirect firefox to adelieos.com - 15/9/2020
 Setup a plymouth boot splash screen - 17/9/2020
 Fix lvm encryption to only require one password - 18/9/2020
 Setup IRC channel - 18/9/2020
+Implement basic custom XFCE desktop theme and setup - 19/9/2020
 
 Short term:
 
@@ -38,11 +39,12 @@ Create pacman front end
 Create GUI software center
 Setup web forum
 Create welcome screen application
-Implement custom XFCE desktop theme and setup
+Implement full custom XFCE desktop theme and setup
 Create AdelieOS GUI Config tool
 Enable out of box snap support
 Enable out of box flatpak support
 Make first official alpha iso available for download
+Tweak plymouth boot screen
 
 Before release:
 
