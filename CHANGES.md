@@ -1,6 +1,6 @@
-#AdelieOS v0.0.2 Snapshot - 19/9/2020
+# AdelieOS v0.0.2 Snapshot - 19/9/2020
 
-#Changes since v0.0.1:
+# Changes since v0.0.1:
 
 - Firefox now directs users to adelieos.com by default.
 - Nvidia graphics drivers are now included out of the box.
