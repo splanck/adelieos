@@ -31,6 +31,12 @@ Select extra modules for Calamares
 Setup public bug tracking system
 Setup auto login for live iso
 Setup fish and custom oh my fish theme
+Setup XFCE whisker menu
+Implement search command in adeliepkg
+Implement install command in adeliepkg
+Implement remove command in adeliepkg
+Implement search command in adeliepkg
+Implement clean command in adeliepkg
 
 Medium term:
 
@@ -48,5 +54,6 @@ Tweak plymouth boot screen
 
 Before release:
 
+Finalize XFCE desktop layout and appearance
 Complete redesign of website
 Make official beta iso available for download
