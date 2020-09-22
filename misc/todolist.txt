@@ -16,6 +16,7 @@ Setup a plymouth boot splash screen - 17/9/2020
 Fix lvm encryption to only require one password - 18/9/2020
 Setup IRC channel - 18/9/2020
 Implement basic custom XFCE desktop theme and setup - 19/9/2020
+Make Calamares blend in with desktop theme 20/9/2020
 
 Short term:
 
@@ -26,7 +27,6 @@ Fix Calamares release notes page
 Add rofi launcher
 Update website with full description of the project goals.
 Set target milestone dates
-Make Calamares blend in with desktop theme
 Select extra modules for Calamares
 Setup public bug tracking system
 Setup auto login for live iso
