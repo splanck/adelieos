@@ -16,7 +16,8 @@ Setup a plymouth boot splash screen - 17/9/2020
 Fix lvm encryption to only require one password - 18/9/2020
 Setup IRC channel - 18/9/2020
 Implement basic custom XFCE desktop theme and setup - 19/9/2020
-Make Calamares blend in with desktop theme 20/9/2020
+Make Calamares blend in with desktop theme - 20/9/2020
+Enable out of box flatpak support - 25/9/2020
 
 Short term:
 
@@ -48,7 +49,6 @@ Create welcome screen application
 Implement full custom XFCE desktop theme and setup
 Create AdelieOS GUI Config tool
 Enable out of box snap support
-Enable out of box flatpak support
 Make first official alpha iso available for download
 Tweak plymouth boot screen
 
