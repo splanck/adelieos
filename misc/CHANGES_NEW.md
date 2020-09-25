@@ -2,6 +2,7 @@
 
 - Added support for installing Flatpak applications.
 - Made some visual improvements to Calamares.
+- Changed default shell to Fish.
 
 # AdelieOS v0.0.2 Snapshot - 19/9/2020
 
