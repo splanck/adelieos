@@ -18,6 +18,7 @@ Setup IRC channel - 18/9/2020
 Implement basic custom XFCE desktop theme and setup - 19/9/2020
 Make Calamares blend in with desktop theme - 20/9/2020
 Enable out of box flatpak support - 25/9/2020
+Setup auto login for live iso - 27/9/2020
 
 Short term:
 
@@ -30,7 +31,6 @@ Update website with full description of the project goals.
 Set target milestone dates
 Select extra modules for Calamares
 Setup public bug tracking system
-Setup auto login for live iso
 Setup fish and custom oh my fish theme
 Setup XFCE whisker menu
 Implement search command in adeliepkg

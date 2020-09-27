@@ -1,3 +1,12 @@
+# AdelieOS v0.0.3 Snapshot - 27/9/2020
+
+# Changes since v0.0.2:
+
+- Added support for installing Flatpak applications.
+- Made some visual improvements to Calamares.
+- Changed default shell to Fish.
+- Fixed auto login issue on live system.
+
 # AdelieOS v0.0.2 Snapshot - 19/9/2020
 
 # Changes since v0.0.1:

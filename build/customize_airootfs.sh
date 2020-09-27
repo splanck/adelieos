@@ -33,7 +33,7 @@ echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "sudo calamares &" >> /home/adelieos/.xprofile
 
 # Setup Passwords users: live and root
-chpasswd <<< 'adelieos:adelieos'
+# chpasswd <<< 'adelieos:adelieos'
 chpasswd <<< 'root:toor'
 
 cp /etc/lsb-release-new /etc/lsb-release
