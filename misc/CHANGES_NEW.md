@@ -1,3 +1,9 @@
+# AdelieOS v0.0.4 Snapshot - CURRENT
+
+# Changes since v0.0.3:
+
+- Added support for installing snap packages.
+
 # AdelieOS v0.0.3 Snapshot - 27/9/2020
 
 # Changes since v0.0.2:
