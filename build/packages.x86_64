@@ -258,6 +258,7 @@ fsarchiver
 #lightdm-gtk-greeter-settings
 accountsservice
 
+# GNOME
 brasero
 chrome-gnome-shell
 dconf-editor
@@ -276,6 +277,7 @@ polkit-gnome
 sysprof
 transmission-gtk
 gdm
+gnome-software-packagekit-plugin
 
 # calamares.dependencies
 boost
@@ -323,3 +325,6 @@ python-docutils
 # Adelie Repo
 plymouth
 snapd
+libgdm-plymouth
+gdm-plymouth
+
