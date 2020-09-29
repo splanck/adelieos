@@ -321,6 +321,7 @@ gimp
 flatpak
 apparmor
 python-docutils
+util-linux
 
 # Adelie Repo
 plymouth
