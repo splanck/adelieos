@@ -26,8 +26,21 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 useradd -m -u 1010 -G users,sys,floppy,scanner,power,rfkill,optical,adm,log,lp,video,network,storage,wheel,audio -s /usr/bin/fish adelieos
 passwd -d adelieos
 
+mkdir /home/adelieos/Documents
+mkdir /home/adelieos/Downloads
+mkdir /home/adelieos/Desktop
+mkdir /home/adelieos/Templates
+mkdir /home/adelieos/Pictures
+mkdir /home/adelieos/Videos
+mkdir /home/adelieos/Public
+
+chown -R adelieos:adelieos /home/adelieos
+chmod -R 700 /home/adelieos
+
 groupadd -r autologin
 gpasswd -a adelieos autologin
+
+runuser -l adelieos -c 'LC_ALL=C xdg-user-dirs-update'
 
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "dconf load /org/gnome/ < /home/adelieos/my_gnome_settings" >> /home/adelieos/.xprofile
@@ -40,6 +53,7 @@ chpasswd <<< 'root:toor'
 cp /etc/lsb-release-new /etc/lsb-release
 cp /usr/share/backgrounds/xfce/adeliebg.png /usr/share/backgrounds/xfce/xfce-stripes.png
 cp /etc/lightdm/lightdm.conf.live /etc/lightdm/lightdm.conf
+cp /etc/gdm/custom.conf.live /etc/gdm/custom.conf
 
 # Adding Post-Install Tasks
 #systemctl enable lightdm.service
