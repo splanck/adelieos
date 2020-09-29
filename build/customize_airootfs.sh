@@ -41,7 +41,8 @@ cp /usr/share/backgrounds/xfce/adeliebg.png /usr/share/backgrounds/xfce/xfce-str
 cp /etc/lightdm/lightdm.conf.live /etc/lightdm/lightdm.conf
 
 # Adding Post-Install Tasks
-systemctl enable lightdm.service
+#systemctl enable lightdm.service
+systemctl enable gdm.service
 systemctl set-default graphical.target
 
 # Networking

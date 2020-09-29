@@ -239,43 +239,24 @@ clonezilla
 fsarchiver
 
 # Xfce
-#xfce4
-#xfce4-goodies
-#xfce4-whiskermenu-plugin
-#adapta-gtk-theme
-#arc-gtk-theme
-#arc-icon-theme
-#catfish
-#gnome-packagekit
-#gtk-engine-murrine
-#polkit-gnome
-#transmission-gtk
-#xarchiver
-
-# Display Manager
-#lightdm
-#lightdm-gtk-greeter
-#lightdm-gtk-greeter-settings
-accountsservice
-
-brasero
-chrome-gnome-shell
-dconf-editor
-ghex
-gnome
-gnome-builder
-gnome-nettool
+xfce4
+xfce4-goodies
+xfce4-whiskermenu-plugin
+adapta-gtk-theme
+arc-gtk-theme
+arc-icon-theme
+catfish
 gnome-packagekit
-gnome-sound-recorder
-gnome-todo
-gnome-tweaks
-gnome-usage
-gnome-shell-extensions
 gtk-engine-murrine
 polkit-gnome
-sysprof
 transmission-gtk
-gdm
+xarchiver
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice
 
 # calamares.dependencies
 boost
@@ -318,6 +299,8 @@ fish
 gimp
 flatpak
 apparmor
+#go
+#go-tools
 python-docutils
 
 # Adelie Repo
