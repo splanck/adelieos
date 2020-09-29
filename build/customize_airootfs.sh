@@ -30,6 +30,7 @@ groupadd -r autologin
 gpasswd -a adelieos autologin
 
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+echo "dconf load /org/gnome/ < /home/adelieos/my_gnome_settings" >> /home/adelieos/.xprofile
 echo "sudo calamares &" >> /home/adelieos/.xprofile
 
 # Setup Passwords users: live and root
