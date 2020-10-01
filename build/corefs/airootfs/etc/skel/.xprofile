@@ -1,0 +1,1 @@
+dconf load /org/gnome/ < /home/adelieos/adelieos_gnome_settings

@@ -43,7 +43,7 @@ gpasswd -a adelieos autologin
 runuser -l adelieos -c 'LC_ALL=C xdg-user-dirs-update'
 
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-echo "dconf load /org/gnome/ < /home/adelieos/my_gnome_settings" >> /home/adelieos/.xprofile
+echo "dconf load /org/gnome/ < /home/adelieos/adelieos_gnome_settings" >> /home/adelieos/.xprofile
 echo "sudo calamares &" >> /home/adelieos/.xprofile
 
 # Setup Passwords users: live and root
