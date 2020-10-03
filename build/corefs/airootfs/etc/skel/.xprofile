@@ -1,1 +1,15 @@
-dconf load /org/gnome/ < /home/adelieos/adelieos_gnome_settings
+FILE=~/setupgnome
+
+if [ -f "$FILE" ]; then
+    dconf load /org/gnome/ < ~/adelieos_gnome_settings
+    mkdir ~/Desktop
+    mkdir ~/Documents
+    mkdir ~/Downloads
+    mkdir ~/Music
+    mkdir ~/Templates
+    mkdir ~/Pictures
+    mkdir ~/Videos
+    mkdir ~/Public    
+    rm ~/setupgnome
+fi
+

@@ -3,6 +3,7 @@
 # Changes since v0.0.3:
 
 - Added support for installing snap packages.
+- Changed desktop environment to GNOME.
 
 # AdelieOS v0.0.3 Snapshot - 27/9/2020
 

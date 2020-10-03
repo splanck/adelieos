@@ -94,10 +94,10 @@ navigation: widget
 strings:
     productName:         AdelieOS
     shortProductName:    AdelisOS
-    version:             0.0.3
-    shortVersion:        0.0.3
-    versionedName:       AdelieOS Version 0.0.3 Pre-Alpha
-    shortVersionedName:  AdelieOS v0.0.3 
+    version:             0.0.4
+    shortVersion:        0.0.4
+    versionedName:       AdelieOS Version 0.0.4 Pre-Alpha
+    shortVersionedName:  AdelieOS v0.0.4 
     bootloaderEntryName: AdelieOS
     productUrl:          https://adelieos.com
     supportUrl:          https://adelieos.com
