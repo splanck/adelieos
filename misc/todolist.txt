@@ -20,6 +20,7 @@ Make Calamares blend in with desktop theme - 20/9/2020
 Enable out of box flatpak support - 25/9/2020
 Setup auto login for live iso - 27/9/2020
 Enable out of box snap support - 28/9/2020
+Setup GUI software center - 3/10/2020
 
 Short term:
 
@@ -33,7 +34,6 @@ Set target milestone dates
 Select extra modules for Calamares
 Setup public bug tracking system
 Setup fish and custom oh my fish theme
-Setup XFCE whisker menu
 Implement search command in adeliepkg
 Implement install command in adeliepkg
 Implement remove command in adeliepkg
@@ -44,7 +44,6 @@ Medium term:
 
 Create testing strategy
 Create pacman front end
-Create GUI software center
 Setup web forum
 Create welcome screen application
 Implement full custom XFCE desktop theme and setup
@@ -54,6 +53,6 @@ Tweak plymouth boot screen
 
 Before release:
 
-Finalize XFCE desktop layout and appearance
+Finalize GNOME desktop layout and appearance
 Complete redesign of website
 Make official beta iso available for download
