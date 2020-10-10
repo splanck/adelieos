@@ -1,4 +1,4 @@
-# AdelieOS v0.0.4 Snapshot - CURRENT
+# AdelieOS v0.0.4 Snapshot - 10/9/2020
 
 # Changes since v0.0.3:
 
