@@ -25,11 +25,11 @@ Setup GUI software center - 3/10/2020
 Setup project discord server - 9/10/2020
 Redesigned website basic look - 10/10/2020
 Added custom GNOME GTK theme as defualt - 11/10/2020
-Changed default filesystem to btrfs and added btrbk snapshot tool - 11/10/2020
+Create AdelieOS pacman package - 11/10/2020
 
 Short term:
 
-Create AdelieOS pacman package
+Add basic files to adelie_core pacman package
 Create snapshot warning dialog
 Setup MediaWiki site
 Fix Calamares release notes page

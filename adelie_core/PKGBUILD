@@ -1,0 +1,38 @@
+# Maintainer: Stephen Planck <adelieos@yandex.com>
+pkgname=adelie_core
+pkgver=0.0.5
+pkgrel=1
+pkgdesc="AdelieOS core package files."
+arch=(x86_64)
+url="https://adelieos.com/adelierepo/"
+license=('GPL')
+#depends=()
+#makedepends=()
+#checkdepends=()
+#optdepends=()
+#provides=()
+#conflicts=()
+#replaces=()
+backup=()
+#options=()
+install=
+changelog=
+source=("$url$pkgname-$pkgver.tar.gz")
+#noextract=()
+#md5sums=()
+#validpgpkeys=()
+
+build() {
+	#./configure --prefix=/usr
+    #cp core/adelie.test /etc/adelie.test
+    ls -l
+    pwd 
+	#make
+}
+
+package() {
+    echo "packaging"
+    sudo cp core/adelie.test /etc/adelie.test
+}
+
+md5sums=('07bca74a946a6047f06984de9a493734')
