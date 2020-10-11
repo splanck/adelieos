@@ -1,5 +1,5 @@
 [control-center]
-last-panel='display'
+last-panel='background'
 
 [desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -30,12 +30,8 @@ xkb-options=@as []
 document-font-name='Cantarell 12'
 font-name='Cantarell 12'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Numix-DarkBlue'
-icon-theme='Papirus-Dark'
+gtk-theme='Adwaita-dark'
 monospace-font-name='Source Code Pro 12'
-
-[desktop/peripherals/keyboard]
-numlock-state=true
 
 [desktop/peripherals/touchpad]
 click-method='fingers'
@@ -80,10 +76,10 @@ antialiasing='grayscale'
 hinting='slight'
 
 [shell]
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=@as []
 
 [shell/world-clocks]
 locations=@av []
 
 [software]
-check-timestamp=int64 1602390140
+check-timestamp=int64 1601412595

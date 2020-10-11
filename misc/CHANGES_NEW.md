@@ -1,6 +1,7 @@
 # AdelieOS v0.0.5 Snapshot - CURRENT
 
 - Added a few additional packages.
+- Changed default desktop theme to a custom darkblue GTK theme.
 
 # AdelieOS v0.0.4 Snapshot - 10/10/2020 
 
