@@ -39,7 +39,7 @@ chmod -R 700 /home/adelieos
 
 groupadd -r autologin
 gpasswd -a adelieos autologin
-gpasswd -a adlieos lp
+gpasswd -a adelieos lp
 
 runuser -l adelieos -c 'LC_ALL=C xdg-user-dirs-update'
 
