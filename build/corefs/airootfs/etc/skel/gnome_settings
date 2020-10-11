@@ -1,0 +1,89 @@
+[control-center]
+last-panel='display'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///etc/calamares/branding/adelieos/adelieos-wallpaper.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/input-sources]
+sources=[('xkb', 'au')]
+xkb-options=@as []
+
+[desktop/interface]
+document-font-name='Cantarell 12'
+font-name='Cantarell 12'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Numix-DarkBlue'
+icon-theme='Papirus-Dark'
+monospace-font-name='Source Code Pro 12'
+
+[desktop/peripherals/keyboard]
+numlock-state=true
+
+[desktop/peripherals/touchpad]
+click-method='fingers'
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///etc/calamares/branding/adelieos/adelieos-wallpaper.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+titlebar-font='Cantarell Bold 12'
+
+[epiphany/state]
+is-maximized=false
+window-position=(-1, -1)
+window-size=(1024, 694)
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[nm-applet/eap/3c5b47f7-b059-42e7-b169-9161121ab8fd]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/57677148-aef2-4112-92c9-dfa4354aa490]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/704f1cbf-fb5f-4b93-be76-5919030950e7]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[packagekit]
+search-mode='details'
+
+[settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[shell]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1602390140
