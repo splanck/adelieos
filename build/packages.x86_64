@@ -234,28 +234,9 @@ ddrescue
 dd_rescue
 testdisk
 clonezilla
-# partclone
-# partimage
 fsarchiver
 
-# Xfce
-#xfce4
-#xfce4-goodies
-#xfce4-whiskermenu-plugin
-#adapta-gtk-theme
-#arc-gtk-theme
-#arc-icon-theme
-#catfish
-#gnome-packagekit
-#gtk-engine-murrine
-#polkit-gnome
-#transmission-gtk
-#xarchiver
-
 # Display Manager
-#lightdm
-#lightdm-gtk-greeter
-#lightdm-gtk-greeter-settings
 accountsservice
 
 # GNOME
@@ -327,6 +308,11 @@ python-docutils
 util-linux
 scrot
 gnome-games
+tldr
+
+# Bluetooth
+bluez
+bluez-utils
 
 # Adelie Repo
 plymouth
@@ -334,5 +320,4 @@ snapd
 libgdm-plymouth
 gdm-plymouth
 adelie_core
-# btrbk
 numix-themes-darkblue

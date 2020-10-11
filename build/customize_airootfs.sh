@@ -39,12 +39,13 @@ chmod -R 700 /home/adelieos
 
 groupadd -r autologin
 gpasswd -a adelieos autologin
+gpasswd -a adlieos lp
 
 runuser -l adelieos -c 'LC_ALL=C xdg-user-dirs-update'
 
 echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "dconf load /org/gnome/ < /home/adelieos/adelieos_gnome_settings" >> /home/adelieos/.xprofile
-echo "sudo calamares &" >> /home/adelieos/.xprofile
+echo "sudo -E calamares &" >> /home/adelieos/.xprofile
 
 # Setup Passwords users: live and root
 # chpasswd <<< 'adelieos:adelieos'
@@ -52,11 +53,9 @@ chpasswd <<< 'root:toor'
 
 cp /etc/lsb-release-new /etc/lsb-release
 cp /usr/share/backgrounds/xfce/adeliebg.png /usr/share/backgrounds/xfce/xfce-stripes.png
-cp /etc/lightdm/lightdm.conf.live /etc/lightdm/lightdm.conf
 cp /etc/gdm/custom.conf.live /etc/gdm/custom.conf
 
 # Adding Post-Install Tasks
-#systemctl enable lightdm.service
 systemctl enable gdm.service
 systemctl set-default graphical.target
 
@@ -69,6 +68,7 @@ echo "[main]
 dns=systemd-resolved" > /etc/NetworkManager/conf.d/dns.conf
 systemctl enable NetworkManager.service
 systemctl enable systemd-resolved.service
+systemctl enable bluetooth.service
 
 # Enable sudo
 sed -i -e 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) NOPASSWD: ALL/g' /etc/sudoers
