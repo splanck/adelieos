@@ -20,7 +20,11 @@ Make Calamares blend in with desktop theme - 20/9/2020
 Enable out of box flatpak support - 25/9/2020
 Setup auto login for live iso - 27/9/2020
 Enable out of box snap support - 28/9/2020
+Replaced XFCE with the GNOME desktop environment - 1/10/2020
 Setup GUI software center - 3/10/2020
+Setup project discord server - 9/10/2020
+Redesigned website basic look - 10/10/2020
+Added custom GNOME GTK theme as defualt - 11/10/2020
 
 Short term:
 
@@ -28,7 +32,6 @@ Create AdelieOS pacman package
 Create snapshot warning dialog
 Setup MediaWiki site
 Fix Calamares release notes page
-Add rofi launcher
 Update website with full description of the project goals.
 Set target milestone dates
 Select extra modules for Calamares
@@ -46,10 +49,11 @@ Create testing strategy
 Create pacman front end
 Setup web forum
 Create welcome screen application
-Implement full custom XFCE desktop theme and setup
+Implement full custom GNOME desktop theme and setup
 Create AdelieOS GUI Config tool
 Make first official alpha iso available for download
 Tweak plymouth boot screen
+Populate all website content properly
 
 Before release:
 
