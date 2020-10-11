@@ -1,7 +1,10 @@
 # AdelieOS v0.0.5 Snapshot - CURRENT
 
+# Changes since v0.0.4:
+
 - Added a few additional packages.
 - Changed default desktop theme to a custom darkblue GTK theme.
+- Changed default filesystem to btrfs and added btrbk snapshot tool.
 
 # AdelieOS v0.0.4 Snapshot - 10/10/2020 
 
