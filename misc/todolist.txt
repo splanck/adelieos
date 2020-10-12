@@ -26,6 +26,8 @@ Setup project discord server - 9/10/2020
 Redesigned website basic look - 10/10/2020
 Added custom GNOME GTK theme as defualt - 11/10/2020
 Create AdelieOS pacman package - 11/10/2020
+Setup web forum - 12/10/2020
+Setup public bug tracking system - 12/10/2020
 
 Short term:
 
@@ -36,7 +38,6 @@ Fix Calamares release notes page
 Update website with full description of the project goals.
 Set target milestone dates
 Select extra modules for Calamares
-Setup public bug tracking system
 Setup fish and custom oh my fish theme
 Implement search command in adeliepkg
 Implement install command in adeliepkg
@@ -50,11 +51,10 @@ Medium term:
 
 Create testing strategy
 Create pacman front end
-Setup web forum
 Create welcome screen application
 Implement full custom GNOME desktop theme and setup
 Create AdelieOS GUI Config tool
-Make first official alpha iso available for download
+Make first official beta iso available for download
 Tweak plymouth boot screen
 Populate all website content properly
 
@@ -62,4 +62,4 @@ Before release:
 
 Finalize GNOME desktop layout and appearance
 Complete redesign of website
-Make official beta iso available for download
+Make official release candidate iso available for download

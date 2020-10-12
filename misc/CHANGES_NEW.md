@@ -4,7 +4,7 @@
 
 - Added a few additional packages.
 - Changed default desktop theme to a custom darkblue GTK theme.
-- Changed default filesystem to btrfs and added btrbk snapshot tool.
+- Added support for bluetooth devices.
 
 # AdelieOS v0.0.4 Snapshot - 10/10/2020 
 
