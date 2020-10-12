@@ -2,6 +2,7 @@ FILE=~/setupgnome
 
 if [ -f "$FILE" ]; then
     dconf load /org/gnome/ < ~/adelieos_gnome_settings
+    dconf load /org/gnome/shell/extensions/ < ~/extensions.conf
     mkdir ~/Desktop
     mkdir ~/Documents
     mkdir ~/Downloads
