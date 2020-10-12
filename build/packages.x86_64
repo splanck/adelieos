@@ -320,4 +320,5 @@ snapd
 libgdm-plymouth
 gdm-plymouth
 adelie_core
+gnome-terminal-transparency
 numix-themes-darkblue
