@@ -44,11 +44,23 @@ icon-theme='Papirus-Dark'
 monospace-font-name='Source Code Pro 12'
 show-battery-percentage=true
 
+[desktop/notifications]
+application-children=['org-gnome-software', 'firefox']
+
+[desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
 [desktop/peripherals/keyboard]
 numlock-state=true
 
 [desktop/peripherals/touchpad]
 click-method='fingers'
+
+[desktop/privacy]
+disable-microphone=false
 
 [desktop/screensaver]
 color-shading-type='solid'
@@ -76,6 +88,14 @@ window-size=(1024, 663)
 migrated=true
 network-monitor-gio-name=''
 
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
 [nm-applet/eap/3c5b47f7-b059-42e7-b169-9161121ab8fd]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -99,14 +119,15 @@ antialiasing='grayscale'
 hinting='slight'
 
 [shell]
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'Zoom.desktop', 'com.slack.Slack.desktop']
 
 [shell/extensions/dash-to-dock]
 apply-custom-theme=false
 background-color='#000000'
 background-opacity=0.41999999999999998
 custom-background-color=true
+custom-theme-shrink=true
 dash-max-icon-size=48
 dock-fixed=true
 extend-height=true
@@ -117,6 +138,9 @@ show-apps-at-top=true
 show-mounts=false
 transparency-mode='FIXED'
 
+[shell/extensions/net/gfxmonk/impatience]
+speed-factor=0.52000000000000002
+
 [shell/extensions/window-list]
 show-on-all-monitors=true
 
@@ -124,7 +148,7 @@ show-on-all-monitors=true
 locations=@av []
 
 [software]
-check-timestamp=int64 1602390140
+check-timestamp=int64 1602707625
 
 [terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-transparency-percent=10

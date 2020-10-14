@@ -28,6 +28,7 @@ Added custom GNOME GTK theme as defualt - 11/10/2020
 Create AdelieOS pacman package - 11/10/2020
 Setup web forum - 12/10/2020
 Setup public bug tracking system - 12/10/2020
+Added GNOME Terminal with transparency patch. - 14/10/2020
 
 Short term:
 

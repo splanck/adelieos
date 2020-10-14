@@ -1,4 +1,14 @@
-# AdelieOS v0.0.4 Snapshot - 10/10/2020
+# AdelieOS v0.0.5 Snapshot - 14/10/2020
+
+# Changes since v0.0.4:
+
+- Added a few additional packages.
+- Changed default desktop theme to a custom orange and black GTK theme.
+- Added support for bluetooth devices.
+- Added GNOME Terminal with transparency patch.
+- Other random tweaks and improvements.
+
+# AdelieOS v0.0.4 Snapshot - 10/10/2020 
 
 # Changes since v0.0.3:
 

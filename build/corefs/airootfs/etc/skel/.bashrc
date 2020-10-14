@@ -28,7 +28,8 @@ fi
 
 #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 #PS1='\[\033[01;31m\]\w\[\033[00m\]\n${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[00m\]\$ '
-export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[33;40m\]\h\[\e[m\]-\[\e[35m\]\w\[\e[m\]\\$ "
+#export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[33;40m\]\h\[\e[m\]-\[\e[35m\]\w\[\e[m\]\\$ "
+export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]@\h:\[$(tput sgr0)\]\[\033[38;5;6m\][\[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;6m\]]\[$(tput sgr0)\]: \[$(tput sgr0)\]"
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
