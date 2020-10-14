@@ -1,3 +1,9 @@
+[calendar]
+active-view='month'
+window-maximized=true
+window-position=(85, 27)
+window-size=(1281, 696)
+
 [control-center]
 last-panel='display'
 
@@ -22,6 +28,9 @@ picture-uri='file:///etc/calamares/branding/adelieos/adelieos-wallpaper.png'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
+[desktop/calendar]
+show-weekdate=false
+
 [desktop/input-sources]
 sources=[('xkb', 'au')]
 xkb-options=@as []
@@ -30,9 +39,10 @@ xkb-options=@as []
 document-font-name='Cantarell 12'
 font-name='Cantarell 12'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Numix-DarkBlue'
+gtk-theme='trollwut-orange-dark'
 icon-theme='Papirus-Dark'
 monospace-font-name='Source Code Pro 12'
+show-battery-percentage=true
 
 [desktop/peripherals/keyboard]
 numlock-state=true
@@ -47,14 +57,20 @@ picture-uri='file:///etc/calamares/branding/adelieos/adelieos-wallpaper.png'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
+[desktop/sound]
+allow-volume-above-100-percent=false
+
 [desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
 titlebar-font='Cantarell Bold 12'
 
+[epiphany]
+ask-for-default=false
+
 [epiphany/state]
 is-maximized=false
 window-position=(-1, -1)
-window-size=(1024, 694)
+window-size=(1024, 663)
 
 [evolution-data-server]
 migrated=true
@@ -75,15 +91,42 @@ ignore-phase2-ca-cert=false
 [packagekit]
 search-mode='details'
 
+[photos]
+window-maximized=true
+
 [settings-daemon/plugins/xsettings]
 antialiasing='grayscale'
 hinting='slight'
 
 [shell]
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop']
+
+[shell/extensions/dash-to-dock]
+apply-custom-theme=false
+background-color='#000000'
+background-opacity=0.41999999999999998
+custom-background-color=true
+dash-max-icon-size=48
+dock-fixed=true
+extend-height=true
+force-straight-corner=true
+height-fraction=1.0
+icon-size-fixed=true
+show-apps-at-top=true
+show-mounts=false
+transparency-mode='FIXED'
+
+[shell/extensions/window-list]
+show-on-all-monitors=true
 
 [shell/world-clocks]
 locations=@av []
 
 [software]
 check-timestamp=int64 1602390140
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-transparency-percent=10
+use-transparent-background=true
+visible-name='AdelieOS'

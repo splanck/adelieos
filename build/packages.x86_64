@@ -309,6 +309,7 @@ util-linux
 scrot
 gnome-games
 tldr
+bash-completion
 
 # Bluetooth
 bluez
